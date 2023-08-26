@@ -108,11 +108,14 @@ public class BaseTest {
 	
 	public String getScreenshot(String testCaseName, WebDriver driver) throws IOException 
 	{
+		String reportPath = System.getProperty("user.dir") + "//reports//" + testCaseName + ".png";
+		
 		TakesScreenshot ss = (TakesScreenshot) driver;
 		File src = ss.getScreenshotAs(OutputType.FILE);
-		File file = new File(System.getProperty("user.dir") + "//reports//" + testCaseName + ".png");
+		File file = new File(reportPath);
 		FileUtils.copyFile(src, file);
-		return (System.getProperty("user.dir") + "//reports//" + testCaseName + ".png");
+		
+		return (reportPath);
 	}
 	
 	
