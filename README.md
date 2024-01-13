@@ -50,12 +50,22 @@ Welcome to the Automation Framework Project repository! This project is designed
    - Create a Jenkins job, configure source code management, and set up build triggers.
    - Add build steps to execute Maven commands for the automation suite.
 
-## Documentation
-
-Detailed documentation on how to use each component, create and maintain test cases, and leverage the features provided by the framework can be found in the [Wiki](/wiki) section of this repository.
-
 ## Contributions
 
-We welcome contributions from the community! If you find any issues, have feature requests, or want to contribute enhancements, please submit a pull request.
+Contributions to this project are welcome! If you'd like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature/add-new-feature`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature/add-new-feature`).
+5. Open a pull request on GitHub.
+
+## Issues
+
+If you encounter any issues, bugs, or have suggestions, please open an issue on GitHub.
+
+## Acknowledgments
+
+- Special thanks to the Selenium, TestNG, Cucumber, Jenkins and BrowserStack communities for their valuable tools and resources.
 
 Happy testing! 🚀
